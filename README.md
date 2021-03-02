@@ -1,10 +1,9 @@
 # espruna-wd
-Remix espurna-h PCB
-https://github.com/xoseperez/espurna-board
+Remix [espurna-h PCB](https://github.com/xoseperez/espurna-board)
 
 I didn't need current metering HLW8012, however needed an increase in reliability.
 
-I used the xoseperez design to make the board using the Watch Dog hardware.
+I used the [xoseperez](https://github.com/xoseperez) design to make the board using the Watch Dog hardware.
 
 Changes:
 - Added hardware Watch Dog STWD100. It is possible to use pin-to-pin analogs. Pin Enable has 2 pull-up options. Disconnection by a jumper.
