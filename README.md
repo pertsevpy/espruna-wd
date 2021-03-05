@@ -6,7 +6,7 @@ I didn't need current metering HLW8012, however needed an increase in reliabilit
 I used the [xoseperez](https://github.com/xoseperez) design to make the board using the Watch Dog hardware.
 
 Changes:
-- Added hardware Watch Dog STWD100. It is possible to use pin-to-pin analogs. Pin Enable has 2 pull-up options. Disconnection by a jumper.
+- Added hardware Watch Dog STMicroelectronics STWD100. It is possible to use pin-to-pin analogs. Pin Enable has 2 pull-up options. Disconnection by a jumper.
 - 3mm mounting holes (Little space, but dimensions are preserved).
 - Slightly changed the layout of the board, redrawn all the tracks of the PCB.
 - More GPIOs brought out.
