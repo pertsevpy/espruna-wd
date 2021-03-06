@@ -1,0 +1,1 @@
+The models are designed for mounting PCB in a wall socket using a dimmer housing. I am using an [encoder module](https://aliexpress.ru/af/encoder-module.html) as a control.
