@@ -11,6 +11,10 @@ Changes:
 - Slightly changed the layout of the board, redrawn all the tracks of the PCB.
 - More GPIOs brought out.
 
+# Watchdog Notes:
+- Please use the jumper (pin enable) to disable WD while flashing and configuring the device. Otherwise, you will get flickering.
+- Please use STWD100xY (eg WNY marking) with a timeout period of 1.6s (1.12 - 2.24s). Otherwise, the ESP8266 may not boot up in time and you will get flickering.
+
 ## Open Hardware
 
 Hardware designs (schematics and CAD) files are licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/) and follow the terms of the [OSHW (Open-source hardware) Statement of Principles 1.0.](http://freedomdefined.org/OSHW)
